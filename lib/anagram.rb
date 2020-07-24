@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(array)
-    array.any? do |word|
+    array.collect do |word|
       word.chars.sort.join == @word.chars.sort.join
     end
   end
