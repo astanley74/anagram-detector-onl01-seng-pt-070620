@@ -8,6 +8,7 @@ class Anagram
       new_word = word.chars.sort.join
         if new_word.count > 2
         new_word
+      end`
     end
   end
 end
